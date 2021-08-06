@@ -1,18 +1,8 @@
 {
   "name": "sirloya",
-  "scripts": {
-  },
-  "formation": {
-    "web": {
-      "quantity": 1
-    }
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/nodejs"
-    }
-  ]
+  "description": "A barebones Node.js app using Express",
+  "repository": "https://github.com/satyammayy/sirloya",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
 }
+

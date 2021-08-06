@@ -5,7 +5,7 @@
     "start": "node index.js",
   },
   "author": "Soatyam",
-  "license": "GNU-3.0",
+  "license": "GPL-3.0",
   "dependencies": {
     "@open-wa/wa-automate": "^4.13.1",
     "@open-wa/wa-decrypt": "^3.1.0",

@@ -163,4 +163,24 @@
     "uuid": "^8.3.2",
     "uuid-apikey": "^1.4.6"
   }
+  },
+  "engines": {
+    "ejs": "2.5.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/satyammayy/sirloya"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Mark Pundsack",
+  "contributors": [
+    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)",
+    "Hector Simpson <hector@heroku.com> (http://heroku.com)"
+  ],
+  "license": "MIT"
+}
 }

@@ -1,8 +1,30 @@
 {
-  "name": "sirloya",
-  "description": "A barebones Node.js app using Express",
-  "repository": "https://github.com/satyammayy/sirloya",
-  "logo": "https://node-js-sample.herokuapp.com/node.png",
-  "keywords": ["node", "express", "static"]
-}
-
+    "name": "sirloya",
+    "description": "Modular WhatsApp Bot",
+    "keywords": [
+      "bot",
+      "whatsapp",
+      "stickers",
+      "whatsapp-stickers",
+      "anime",
+      "whatsapp-bot",
+      "whatsapp-sticker-bot",
+      "whatsapp-botto"
+    ],
+    "website": "https://github.com/satyammayy/sirloya",
+    "repository": "https://github.com/satyammayy/sirloya.git",
+    "logo": "https://i.ibb.co/HPqwr9Q/whatsapp-botto-void-init.png",
+    "success_url": "/",
+ 
+    "buildpacks": [
+      {
+        "url": "heroku/nodejs"
+      },
+      {
+        "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+      },
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      }
+    ]
+  }
